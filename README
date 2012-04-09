@@ -1,0 +1,43 @@
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+AUTHOR: Thomas Diewald
+
+Date:        09.04.2012
+last edited: 09.04.2012
+
+author:    www.thomasdiewald.com
+library:   https://github.com/diwi/diewald_shapeFileReader
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+
+################################################################################
+--------------------------------------------------------------------------------
+JAVA LIBRARY - diewald_shapeFileReader
+--------------------------------------------------------------------------------
+################################################################################
+
+a Java Library for reading ESRI-shapeFiles (*.shp, *.dfb, *.shx).
+
+
+a ShapeFile consists of at least the following files:
+
+dBaseFile:      *.dbf
+shapeFile:      *.shp
+ShapeIndexFile: *.shx
+
+all this files must be located in the same given folder and start with the same 
+name.
+example: "my_shapefile.dbf", "my_shapefile.shp", "my_shapefile.shx"
+In each of the .shp, .shx, and .dbf files, the shapes in each file correspond to
+each other in sequence.
+That is, the first record in the .shp file corresponds to the first record in t
+he .shx and .dbf files, and so on.
+
+more information:
+http://en.wikipedia.org/wiki/Shapefile
+
+
+
+
