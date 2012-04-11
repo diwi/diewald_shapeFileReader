@@ -172,7 +172,7 @@ public class ShapeFile {
    * @return list of Shapes
    */
   @SuppressWarnings("unchecked")
-  public <T>ArrayList<T> getSHP_shape___(){
+  public <T>ArrayList<T> getSHP_shape(){
     return (ArrayList<T>) shp_file.getShpShapes();
   }
   
@@ -188,7 +188,7 @@ public class ShapeFile {
    */
   @SuppressWarnings("unchecked")
   public <T>T getSHP_shape(int index){
-    return (T) getSHP_shape___().get(index);
+    return (T) getSHP_shape().get(index);
   }
   
   /**
